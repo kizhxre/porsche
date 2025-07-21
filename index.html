@@ -1,1 +1,120 @@
-7
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Porsche Showroom</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #222;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://files.porsche.com/filestore/image/multimedia/none/modelseries-911-gt3-rs-banner/model/02b37927-7f7c-11ec-80ef-005056bbdc38;sM;twebp/porsche-model.png') no-repeat center center/cover;
+      height: 400px;
+    }
+
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .cars {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .car {
+      background: #fff;
+      border-radius: 8px;
+      margin: 20px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .car img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Porsche Showroom</h1>
+    <p>Experience Precision, Power & Perfection</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#models">Models</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero"></div>
+
+  <div class="section" id="models">
+    <h2>Featured Models</h2>
+    <div class="cars">
+      <div class="car">
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/992-carrera-modelimage-sideshot/model/08a086a7-c808-11eb-80d0-005056bbdc38/porsche-model.png" alt="Porsche 911 Carrera">
+        <h3>Porsche 911 Carrera</h3>
+        <p>Top speed: 293 km/h<br>0–100 km/h: 4.2 s</p>
+      </div>
+      <div class="car">
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/j1-taycan-modelimage-sideshot/model/14e06c70-7378-11eb-80d4-005056bbdc38/porsche-model.png" alt="Porsche Taycan">
+        <h3>Porsche Taycan</h3>
+        <p>Top speed: 250 km/h<br>Range: 484 km (WLTP)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Us</h2>
+    <p>Welcome to the Porsche Showroom. Discover the legacy of engineering excellence and design mastery.</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@porscheshowroom.com<br>Phone: +1 800 911 911</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Porsche Showroom. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
